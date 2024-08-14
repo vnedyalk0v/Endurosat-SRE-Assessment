@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Enable debugging mode (outputs each command before executing)
-set -x
+# set -x
 
 ### Start Configuration ###
 
@@ -59,4 +59,4 @@ check_filesystems() {
 check_filesystems
 
 # Disable debugging mode
-set +x
+# set +x
