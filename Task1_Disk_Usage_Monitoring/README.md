@@ -20,8 +20,8 @@ This Bash script monitors the disk usage of the server's file systems and sends 
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://your-repository-url.git
-   cd your-repository-directory
+   git clone https://github.com/vnedyalk0v/Endurosat-SRE-Assessment.git
+   cd Endurosat-SRE-Assessment
    ```
 
 2. **Set Script Permissions**:
