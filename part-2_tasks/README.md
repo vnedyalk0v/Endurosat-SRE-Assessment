@@ -6,47 +6,42 @@ This repository contains solutions to the Site Reliability Engineering assessmen
 
 ## Contents
 
-### [Open Questions](./part-1_open-questions/README.md)
-
-- **Objective**: Provide detailed responses to questions on various topics, including Microsoft Active Directory, DHCP, Group Policy Objects, network troubleshooting, and more.
-- **Format**: Markdown responses discussing relevant concepts, approaches, and best practices for each question.
-
-### [Task 1: Disk Usage Monitoring](./part-2_tasks/task1-disk-usage/README.md)
+### [Task 1: Disk Usage Monitoring](./task1_Disk_Usage_Monitoring/README.md)
 
 - **Objective**: Monitor disk usage on a Linux server and send alerts if usage exceeds a specified threshold.
 - **Language**: Bash
-- **Key Features**: Automated disk usage monitoring, email alerts, logging, and cron job setup.
+- **Key Features**: Automated monitoring, email alerts, logging, cron job setup.
 - **Files**:
   - `disk_usage_monitor.sh`: The main script.
   - `test_environment/`: Contains test scripts for validation.
 
-### [Task 2: Database Backup Automation](./part-2_tasks/task2-db-backup/README.md)
+### [Task 2: Database Backup Automation](./task2_Database_Backup_Automation/README.md)
 
 - **Objective**: Automate the process of backing up a database, compressing it, and transferring it to a remote server.
 - **Language**: Python
-- **Key Features**: Automated backup creation, secure transfer via SSH, integrity checks, and logging.
+- **Key Features**: Backup automation, SSH transfer, integrity checks, logging.
 - **Files**:
   - `db_backup_automation.py`: The main script.
   - `test_environment/`: Contains test scripts for validation.
 
-### [Task 3: Active Directory User Management](./part-2_tasks/task3-ad-management/README.md)
+### [Task 3: Active Directory User Management](./task3_AD_User_Management/README.md)
 
 - **Objective**: Automate the creation, modification, and management of Active Directory user accounts.
 - **Language**: PowerShell
-- **Key Features**: User account creation, modification, and reporting automation, with comprehensive logging.
+- **Key Features**: User account automation, reporting, logging.
 - **Files**:
   - `ad_user_management.ps1`: The main script.
   - `test_environment/`: Contains test scripts for validation.
 
-### [Task 4: CI/CD Pipeline Setup](./part-2_tasks/task4-ci-pipeline/README.md)
+### [Task 4: CI/CD Pipeline Setup](./task4_CI_Pipeline_Setup/README.md)
 
 - **Objective**: Set up a Continuous Integration (CI) pipeline for a simple web application.
 - **Tools**: Docker, Jenkins (or another CI tool)
-- **Key Features**: Automated builds, testing, and deployment via a CI pipeline.
+- **Key Features**: Automated builds, testing, and deployment.
 - **Files**:
   - `simple_web_app/`: The web application with a `Dockerfile`.
   - `ci_pipeline_config.yml`: CI pipeline configuration file.
-  - `Jenkinsfile`: Jenkins pipeline configuration file.
+  - `Jenkinsfile`: Configuration file for Jenkins or equivalent.
 
 ## Getting Started
 
