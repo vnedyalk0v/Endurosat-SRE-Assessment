@@ -6,7 +6,7 @@ This repository contains solutions to the Site Reliability Engineering assessmen
 
 ## Contents
 
-### [Task 1: Disk Usage Monitoring](./task1_Disk_Usage_Monitoring/README.md)
+### [Task 1: Disk Usage Monitoring](./task1-disk-usage/README.md)
 
 - **Objective**: Monitor disk usage on a Linux server and send alerts if usage exceeds a specified threshold.
 - **Language**: Bash
@@ -15,7 +15,7 @@ This repository contains solutions to the Site Reliability Engineering assessmen
   - `disk_usage_monitor.sh`: The main script.
   - `test_environment/`: Contains test scripts for validation.
 
-### [Task 2: Database Backup Automation](./task2_Database_Backup_Automation/README.md)
+### [Task 2: Database Backup Automation](./task2-db-backup/README.md)
 
 - **Objective**: Automate the process of backing up a database, compressing it, and transferring it to a remote server.
 - **Language**: Python
@@ -24,7 +24,7 @@ This repository contains solutions to the Site Reliability Engineering assessmen
   - `db_backup_automation.py`: The main script.
   - `test_environment/`: Contains test scripts for validation.
 
-### [Task 3: Active Directory User Management](./task3_AD_User_Management/README.md)
+### [Task 3: Active Directory User Management](./task3-ad-management/README.md)
 
 - **Objective**: Automate the creation, modification, and management of Active Directory user accounts.
 - **Language**: PowerShell
@@ -33,7 +33,7 @@ This repository contains solutions to the Site Reliability Engineering assessmen
   - `ad_user_management.ps1`: The main script.
   - `test_environment/`: Contains test scripts for validation.
 
-### [Task 4: CI/CD Pipeline Setup](./task4_CI_Pipeline_Setup/README.md)
+### [Task 4: CI/CD Pipeline Setup](./task4-ci-pipeline/README.md)
 
 - **Objective**: Set up a Continuous Integration (CI) pipeline for a simple web application.
 - **Tools**: Docker, Jenkins (or another CI tool)
