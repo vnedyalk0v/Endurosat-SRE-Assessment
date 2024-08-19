@@ -8,7 +8,7 @@ Welcome to **Part 1** of the **Site Reliability Engineer assessment**. In this s
 
 Below is a summary of the topics covered:
 
-1. **What experience do you have with Microsoft Active Directory?**
+1. **What experience do you have with Microsoft Active Directory?**  
    [View Answer](./01_experience_active_directory.md)
 
 2. **Can you explain the difference between a domain and a workgroup in Windows networking?**  
