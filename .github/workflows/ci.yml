@@ -22,11 +22,11 @@ jobs:
           python-version: "3.9"
 
       - name: Install dependencies
-        working-directory: webapp
+        working-directory: part-2_tasks/task4-ci-pipeline/webapp
         run: make install
 
       - name: Run unit tests
-        working-directory: webapp
+        working-directory: part-2_tasks/task4-ci-pipeline/webapp
         run: make test
 
       - name: Set up Docker Buildx
