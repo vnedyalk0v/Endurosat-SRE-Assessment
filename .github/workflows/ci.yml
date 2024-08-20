@@ -40,7 +40,7 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/ci-webapp:latest -f webapp/Dockerfile . 
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/ci-webapp:latest -f part-2_tasks/task4-ci-pipeline/webapp/Dockerfile . 
           docker push ${{ secrets.DOCKER_USERNAME }}/ci-webapp:latest
 
       - name: Deploy to staging (local container)
