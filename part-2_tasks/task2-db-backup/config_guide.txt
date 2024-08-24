@@ -1,0 +1,59 @@
+# Configuration File Guide for Backup and Restore Script
+
+- logging_level: 
+  Controls the level of logging. 
+  Possible values: "DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"
+
+- log_filename: 
+  The filename for the log file where the backup and restore process will be logged.
+
+- db_type: 
+  Specifies the type of the database to back up. 
+  Possible values: "mysql", "postgresql"
+
+- local_db_name: 
+  The name of the local database to back up.
+
+- local_db_user: 
+  The username to access the local database.
+
+- local_db_password: 
+  The password for the local database user.
+
+- remote_host: 
+  The IP or hostname of the remote server where the backup will be transferred.
+
+- remote_user: 
+  The username to use for SSH connection to the remote server.
+
+- remote_user_password: 
+  The password for SSH connection if auth_method is "password".
+
+- auth_method: 
+  Defines the authentication method for SSH. 
+  Possible values: "password" (password-based SSH), "ssh_key" (key-based SSH)
+
+- remote_host_ssh_key: 
+  Path to the SSH key file for authentication. If auth_method is "ssh_key" and this is empty, the default SSH key will be used.
+
+- remote_db_name: 
+  The name of the database on the remote server where the backup will be restored.
+
+- remote_db_user: 
+  The username to access the remote database.
+
+- remote_db_password: 
+  The password for the remote database user.
+
+- local_backup_dir: 
+  The directory on the local machine where backups are stored before transfer.
+
+- remote_backup_dir: 
+  The directory on the remote server where backups will be stored and restored from.
+
+- backup_retention_count: 
+  The number of recent backups to retain. Older backups beyond this count will be deleted.
+
+- checksum_type: 
+  Specifies the type of checksum used to verify the integrity of the transferred backup. 
+  Possible values: "md5sum", "sha256sum"

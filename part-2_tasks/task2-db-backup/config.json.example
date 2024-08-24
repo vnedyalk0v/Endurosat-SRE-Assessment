@@ -1,0 +1,20 @@
+{
+  "logging_level": "INFO",
+  "log_filename": "backup_log.txt",
+  "db_type": "mysql",
+  "local_db_name": "prod_db",
+  "local_db_user": "root",
+  "local_db_password": "password",
+  "remote_host": "192.168.1.31",
+  "remote_user": "root",
+  "remote_user_password": "password",
+  "auth_method": "password",
+  "remote_host_ssh_key": "",
+  "remote_db_name": "prod_db_backup",
+  "remote_db_user": "root",
+  "remote_db_password": "password",
+  "local_backup_dir": "/root/backup_test",
+  "remote_backup_dir": "/root/backups",
+  "backup_retention_count": 5,
+  "checksum_type": "sha256"
+}
